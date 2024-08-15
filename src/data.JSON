@@ -1,0 +1,66 @@
+const companyList = [
+  {
+    id: "abc123",
+    companyName: "Adorn Pvt Ltd",
+    companyAddress: "xyz",
+    managerName: "pqr",
+    projects: [
+      {
+        id: "aaa111",
+        projectName: "react shopify project",
+        frontend: ["react", "Material UI"], // Corrected strings inside arrays
+        backend: ["express.js", "mySql"], // Corrected strings inside arrays
+        timeline: "29th June 2025", // Corrected timeline format
+      },
+      {
+        id: "aaa112",
+        projectName: "react Book project",
+        frontend: ["react", "Material UI"], // Corrected strings inside arrays
+        backend: ["express.js", "mySql"], // Corrected strings inside arrays
+        timeline: "29th June 2025", // Corrected timeline format
+      }
+    ],
+    communication: [
+      {
+        id: "ccc111",
+        projectType: "", // Fill in with project type information
+        projectSponsor: '', // Fill in with project sponsor information
+        technologyStackDetails: "", // Fill in with technology stack details
+        frontendStackID: "", // Fill in with frontend stack ID
+        backendStackID: "", // Fill in with backend stack ID
+        serverName: "", // Fill in with server name
+      },
+    ]
+  },
+  {
+    id: "abc1f3",
+    companyName: "Selon Pvt Ltd",
+    companyAddress: "xyz",
+    managerName: "pqr",
+    projects: [
+      {
+        id: "aaa111",
+        projectName: "react abc project",
+        frontend: ["react", "Material UI"], // Corrected strings inside arrays
+        backend: ["express.js", "mySql"], // Corrected strings inside arrays
+        timeline: "29th June 2025", // Corrected timeline format
+      },
+      {
+        id: "aaa112",
+        projectName: "wordpress Book project",
+        frontend: ["wordpress", "css"], // Corrected strings inside arrays
+        backend: ["php", "mySql"], // Corrected strings inside arrays
+        timeline: "29th June 2025", // Corrected timeline format
+      }
+    ],
+    communication: [
+      {
+        id: "ccc111",
+        projectType: "", // Fill in with project type information
+        projectSponsor: '', // Fill in with project sponsor information
+        technologyStackDetails: "", // Fill in with technology stack details
+        frontendStackID: "", // Fill in with frontend stack ID
+        backendStackID: "", // Fill in with backend stack ID
+        serverName: "", // Fill in with server name
+      }
+];
