@@ -61,6 +61,7 @@ export default function AuthPage() {
       }}
     >
       <Stack sx={{ width: "30%", gap: "1rem", textAlign: "center" }}>
+        <p>Prabhabi</p>
         <Typography variant="h4">Login</Typography>
 
         {/* User ID input field */}
